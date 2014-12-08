@@ -1,0 +1,31 @@
+// JavaScript Document
+$(document).ready(function(){
+		$(".desc").hide();
+	$("#alb").click(function(){
+		alert("it works!");
+	});
+	$("#bc").click(function(){
+		$("#bcdesc").slideToggle();
+	});
+	$("#man").click(function(){
+		$("#mandesc").slideToggle();
+	});
+	$("#nb").click(function(){
+		$("#nbdesc").slideToggle();
+	});
+	$("#ns").click(function(){
+		$("#nsdesc").slideToggle();
+	});
+	$("#ont").click(function(){
+		$("ontdesc").slideToggle();
+	});
+	$("#sas").click(function(){
+		$("#sasdesc").slideToggle();
+	});
+	$("#pei").click(function(){
+		$("#peidesc").slideToggle();
+	});
+	$("#qu").click(function(){
+		$("#qudesc").slideToggle();
+	});
+});
