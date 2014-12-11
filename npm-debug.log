@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'android' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'android', null ]
+6 verbose cache add name=undefined spec="android" args=["android",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'android',
+7 verbose parsed url   path: 'android',
+7 verbose parsed url   href: 'android' }
+8 silly lockFile e4bbe5b7-android android
+9 verbose lock android C:\Users\Anna\AppData\Roaming\npm-cache\e4bbe5b7-android.lock
+10 silly lockFile e4bbe5b7-android android
+11 silly lockFile e4bbe5b7-android android
+12 verbose addNamed [ 'android', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 0c7aa45d-android android@
+15 verbose lock android@ C:\Users\Anna\AppData\Roaming\npm-cache\0c7aa45d-android.lock
+16 silly addNameRange { name: 'android', range: '*', hasData: false }
+17 verbose request where is /android
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 27b09126208aebf2
+20 verbose url raw /android
+21 verbose url resolving [ 'https://registry.npmjs.org/', './android' ]
+22 verbose url resolved https://registry.npmjs.org/android
+23 verbose request where is https://registry.npmjs.org/android
+24 info trying registry request attempt 1 at 19:30:14
+25 verbose etag "4GUFV5D7O8CW7974GGSGN9716"
+26 http GET https://registry.npmjs.org/android
+27 http 304 https://registry.npmjs.org/android
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Tue, 02 Dec 2014 00:30:14 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Tue, 02 Dec 2014 00:30:14 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"4GUFV5D7O8CW7974GGSGN9716"',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-iad2147-IAD',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1417480214.500245,VS0,VE352',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/android from cache
+30 silly addNameRange number 2 { name: 'android', range: '*', hasData: true }
+31 silly addNameRange versions [ 'android',
+31 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.6', '0.0.7', '0.0.5-cd' ] ]
+32 verbose addNamed [ 'android', '0.0.7' ]
+33 verbose addNamed [ '0.0.7', '0.0.7' ]
+34 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+35 verbose lock android@0.0.7 C:\Users\Anna\AppData\Roaming\npm-cache\a58b0c1b-android-0-0-7.lock
+36 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+37 verbose lock https://registry.npmjs.org/android/-/android-0.0.7.tgz C:\Users\Anna\AppData\Roaming\npm-cache\27db3861-js-org-android-android-0-0-7-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/android/-/android-0.0.7.tgz',
+38 verbose addRemoteTarball   'c7be841df0340e6bc718fc42a935b14f30c42348' ]
+39 info retry fetch attempt 1 at 19:30:15
+40 verbose fetch to= C:\Users\Anna\AppData\Local\Temp\npm-5468-i20C_o0s\registry.npmjs.org\android\-\android-0.0.7.tgz
+41 http GET https://registry.npmjs.org/android/-/android-0.0.7.tgz
+42 http 404 https://registry.npmjs.org/android/-/android-0.0.7.tgz
+43 error fetch failed https://registry.npmjs.org/android/-/android-0.0.7.tgz
+44 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+45 silly lockFile 27db3861-js-org-android-android-0-0-7-tgz https://registry.npmjs.org/android/-/android-0.0.7.tgz
+46 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+47 silly lockFile a58b0c1b-android-0-0-7 android@0.0.7
+48 silly lockFile 0c7aa45d-android android@
+49 silly lockFile 0c7aa45d-android android@
+50 error Error: 404 Not Found
+50 error     at WriteStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\fetch.js:58:12)
+50 error     at WriteStream.emit (events.js:117:20)
+50 error     at evalmachine.<anonymous>:1609:14
+50 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+50 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+51 error If you need help, you may report this *entire* log,
+51 error including the npm and node versions, at:
+51 error     <http://github.com/npm/npm/issues>
+52 error System Windows_NT 6.2.9200
+53 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "android"
+54 error cwd C:\wamp\www\assignments\MAD9013\bootstrapfinal
+55 error node -v v0.10.33
+56 error npm -v 1.4.28
+57 verbose exit [ 1, true ]
